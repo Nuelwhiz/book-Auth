@@ -26,7 +26,7 @@ button {
   color: white;
   align-self: center;
   cursor: pointer;
-  padding: 10px 20px;
+  padding: 10px 22px;
   border: none;
   border-radius: 20px;
 }
@@ -45,6 +45,7 @@ p {
   background-color: red;
   padding: 5px 10px;
 }
+
 .handle-delete-button:hover {
-  border-color: red;
+  border-color: rgb(97, 5, 5);
 }

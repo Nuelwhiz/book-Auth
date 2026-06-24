@@ -10,14 +10,15 @@ export default function Form(props) {
   function handdleSetAuthor(event) {
     setAuthor(event.target.value);
   }
+  const newBook = {
+    id: Date.now(),
+    title: title,
+    author: author,
+  };
 
   function handleSubmit(event) {
     event.preventDefault();
-    const newBook = {
-      id: Date.now(),
-      title: title,
-      author: author,
-    };
+    newBook;
     props.addBooks(newBook);
     setTitle("");
     setAuthor("");
